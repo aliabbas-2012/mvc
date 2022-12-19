@@ -2,7 +2,6 @@
 
 use LDAP\Result;
 
-session_start();
 class Model implements Crud, Validate
 {
     // properties

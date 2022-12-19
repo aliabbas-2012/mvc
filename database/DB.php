@@ -1,5 +1,4 @@
 <?php
-session_start();
 class DB{
     // properties
     private static $_host = "";

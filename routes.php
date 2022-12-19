@@ -8,7 +8,8 @@ $router->get("/", function () {
     indexController->dashboard();
 });
 $router->get("/login", function () {
-    loginController->index();
+
+    loginController->index();   
 });
 $router->get("/signup", function () {
 
@@ -43,4 +44,3 @@ $router->post("/user/insert", function () {
 });
 $router->runRouter();
 
-?>

@@ -2,5 +2,5 @@
 $url = '/user/update';
 $headingForm = "Update Form";
 $btn = "Update";
-require(BASEPATH . '/views/template/_form.php');
+require BASE_PATH . '/views/template/_form.php'; 
 ?>

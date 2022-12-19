@@ -1,6 +1,6 @@
 <?php
 
-// require files
+// require
 require_once BASE_PATH . "/config.php";
 require_once BASE_PATH . "/database/DB.php";
 require_once BASE_PATH . "/interfaces/validate.php";
@@ -12,7 +12,6 @@ require_once BASE_PATH . "/controller/indexController.php";
 require_once  BASE_PATH . "/controller/loginController.php";
 require_once  BASE_PATH . "/controller/UserController.php";
 require_once BASE_PATH . "/router/router.php";
-// bootstrap class
 class bootstrap{
     public function run(){
         require_once BASE_PATH . "/routes.php";

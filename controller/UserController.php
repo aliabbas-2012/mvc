@@ -1,5 +1,4 @@
 <?php
-// session_start();
 class UserController extends Controller
 {
     public $userModel;
