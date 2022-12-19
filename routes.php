@@ -43,3 +43,4 @@ $router->post("/user/insert", function () {
 });
 $router->runRouter();
 
+?>
